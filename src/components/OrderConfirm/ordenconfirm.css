@@ -1,0 +1,16 @@
+.confirmacion-compra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.confirmacion-compra h1{
+    padding: 25px;
+}
+.confirmacion-compra small{
+    color: blue;
+    font-size: 1.3em;
+}

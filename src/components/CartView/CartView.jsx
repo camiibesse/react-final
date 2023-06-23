@@ -5,7 +5,7 @@ import "./cart.css";
 import CheckoutForm from "../CheckoutForm/CheckoutForm";
 import { createOrderWithStockUpdate } from "../../services/firebase";
 import { useNavigate } from "react-router-dom";
-import Swal from "sweetalert2";
+
 
 
 function CartContainer() {
