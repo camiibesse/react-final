@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-menu{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto 90px;  
+  height: 17%;   
+}
+
+.nav-link{
+  text-decoration: none;
+  font-weight:400;
+  font-size: 1.15em;
+  color: #fff;
+}
+.nav-link:hover{
+  font-weight: 600;
+  color:rgb(237, 237, 79)
+}
+
+.nav-link.active{
+  color: rgb(244, 67, 54);
+  font-weight:600;
+}
+
+.nav-menu h2 li .nav-container{
+  width: 5em;  
+  padding: 1em;    
+}
+
+.icono-carrito{
+  height: 2em;
+  width: 2em;
+  color: #fff;
+}
+
+.cart-count{
+  color: #fff;
+}
+

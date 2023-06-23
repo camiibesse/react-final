@@ -1,0 +1,35 @@
+
+.form {
+  margin: 20px auto;
+  padding: 10px;  
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(21, 148, 216);
+  color: aliceblue;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 0px rgba(4, 6, 53, 0.935);
+}
+
+.form div {
+  display: flex;
+  gap: 10px;
+}
+
+.form div input {
+  width: 200px;
+}
+.orderBtnContainer {
+  display: flex;
+  justify-content: center;
+}
+.orderBtnContainer button {
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
